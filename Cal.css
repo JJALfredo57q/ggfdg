@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: rgb(39, 39, 39);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.Calculator {
+    height: 70vh;
+    width: 45vh;
+    background-color: rgb(48, 47, 47);
+    border-radius: 2vh;
+    box-shadow: 2px 3px 7vh 4vh rgb(26, 26, 26);
+    
+}
+
+.num {
+    height: 8vh;
+    width: 9vh;
+    margin: 1vh;
+    border-radius: 2vh;
+    border: none;
+    box-shadow: 1px 2px 17px 2px rgba(0, 0, 0, 0.596);
+    background-color: rgb(88, 88, 88);
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 4vh;
+}
+
+.input {
+    height: 8vh;
+    width: 85%;
+    font-size: 4vh;
+    padding-left: 2vh;
+    border-radius: 2vh;
+    box-shadow: 1px 1px 22px rgb(24, 24, 24);
+    border: solid;
+    border-color: rgb(31, 31, 31);
+    color: aliceblue;
+    
+    
+}
+
+.aa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    color: aliceblue;
+
+    
+    
+    
+    
+}
+
+.num:active {
+    background-color: rgb(44, 44, 44);
+}
+
+.numbers {
+    display: block;
+   padding-left: 5vh;
+   margin-top: 2vh;
+}
+
+.Clear {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.asd {
+    height: 1.5vh;
+    width: 10vh;
+    border-radius: 2vh;
+    border: none;
+    box-shadow: 1px 2px 17px 2px rgba(0, 0, 0, 0.596);
+    background-color: rgb(88, 88, 88);
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 1.4vh;
+}
+
+.asd:active {
+    background-color: rgb(34, 34, 34);
+    color: rgb(36, 36, 36);
+}
+
+.asr {
+    position: absolute;
+}

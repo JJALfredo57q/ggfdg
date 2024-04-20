@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="Icon/calculator.png">
+    <link rel="stylesheet" href="Cal.css">
+</head>
+<body class="background">
+    <div class="container">
+        <div class="Calculator">
+            <div class="aa">
+                <input id="Display" class="input" type="text" placeholder="Calculator" disabled>
+
+            </div>
+            <div class="Clear">
+                <button class="asd" onclick="cleardisplay()">C</button>
+
+            </div>
+            
+            <div class="numbers">
+                
+                <button class="num" onclick="appendtodisplay('7')">7</button>
+                <button class="num" onclick="appendtodisplay('8')">8</button>
+                <button class="num" onclick="appendtodisplay('9')">9</button>
+                <button class="num" onclick="appendtodisplay('4')">4</button>
+                <button class="num" onclick="appendtodisplay('5')">5</button>
+                <button class="num" onclick="appendtodisplay('6')">6</button>
+                <button class="num" onclick="appendtodisplay('1')">1</button>
+                <button class="num" onclick="appendtodisplay('2')">2</button>
+                <button class="num" onclick="appendtodisplay('3')">3</button>
+                <button class="num" onclick="appendtodisplay('0')">0</button>
+                <button class="num" onclick="appendtodisplay('*')" class="operator">x</button>
+                <button class="num" onclick="appendtodisplay('+')" class="operator">+</button>
+                <button class="num" onclick="appendtodisplay('/')" class="operator">/</button>
+                <button class="num" onclick="appendtodisplay('-')" class="operator">-</button>
+                <button class="num" onclick="calculate()">=</button>
+
+
+                
+
+
+
+
+                
+            </div>
+            
+        </div>
+        <script src="Func.js"></script>
+       
+
+    </div>
+    
+</body>
+</html>
